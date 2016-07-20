@@ -341,8 +341,8 @@ td.k-state-focused.k-state-selected {
 .k-grid-header .k-header {
     white-space: normal;
     background-image: none;
-    background-color: #fff;
-    border: 1px solid #f4f4f4;
+    background-color: #f4f4f4;
+    border: 1px solid #eaeaea;
     font-weight: bold;
     padding: 10px 8px;
 }
@@ -374,8 +374,8 @@ td.k-state-focused.k-state-selected {
 }
 
 /*GRID FOOTER*/
-.k-pager-numbers {
-    margin: 0;
+.k-grid .k-pager-numbers {
+    margin: 0 0 0 -1px;
 }
 .k-pager-numbers .k-link {
     background: #fafafa;
@@ -384,7 +384,7 @@ td.k-state-focused.k-state-selected {
     border-radius: 0;
     height: 32px;
     line-height: 31px;
-    min-width: 30px;
+    min-width: 31px;
 }
 .k-pager-numbers .k-state-selected {
     border-radius: 0;
@@ -397,7 +397,6 @@ td.k-state-focused.k-state-selected {
 .k-pager-wrap>.k-link {
     border-radius: 0;
     margin: 0;
-    margin-right: -1px;
     height: 32px;
     line-height: 31px;
     background: #fafafa;
@@ -427,6 +426,8 @@ td.k-state-focused.k-state-selected {
 }
 .k-pager-sizes .k-widget.k-dropdown {
     margin-top: 0;
+    width: auto !important;
+    min-width: 60px;
 }
 .k-list .k-state-focused, .k-list .k-state-hover {
     border-radius: 0;
