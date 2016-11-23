@@ -62,11 +62,20 @@ namespace Nop.Admin.Controllers
         {
             if (model == null)
                 throw new ArgumentNullException("model");
-            
-            model.FlagFileNames = Directory
+
+            var flagNames  = Directory
                 .EnumerateFiles(CommonHelper.MapPath("~/Content/Images/flags/"), "*.png", SearchOption.TopDirectoryOnly)
                 .Select(Path.GetFileName)
                 .ToList();
+
+            foreach (var flagName in flagNames)
+            {
+                model.AvailableFlagFileNames.Add(new SelectListItem
+                {
+                    Text = flagName,
+                    Value = flagName
+                });
+            }
         }
 
         [NonAction]

@@ -818,6 +818,9 @@ set @resources='
   <LocaleResource Name="Admin.Configuration.Settings.Order.CompleteOrderWhenDelivered.Hint">
     <Value>Check if an order status should be set to "Complete" only when its shipping status is "Delivered". Otherwise, "Shipped" status will be enough.</Value>
   </LocaleResource>
+  <LocaleResource Name="Admin.Configuration.Languages.Fields.FlagImageFileName.None">
+    <Value>None</Value>
+  </LocaleResource>
 </Language>
 '
 
