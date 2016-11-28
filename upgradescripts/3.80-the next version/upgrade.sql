@@ -851,7 +851,13 @@ set @resources='
   <LocaleResource Name="Blog.Comments.SeeAfterApproving">
     <Value>Blog comment is successfully added. You will see it after approving by a store administrator.</Value>
   </LocaleResource>
-</Language>
+  <LocaleResource Name="Messages.Order.Product(s).PriceByQuantity">
+    <Value>{0} items for {1}</Value>
+  </LocaleResource>
+  <LocaleResource Name="Order.Product(s).PriceByQuantity">
+    <Value>{0} items for {1}</Value>
+  </LocaleResource>
+ </Language>
 '
 
 CREATE TABLE #LocaleStringResourceTmp
