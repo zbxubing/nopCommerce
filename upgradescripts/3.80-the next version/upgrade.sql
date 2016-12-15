@@ -1070,6 +1070,12 @@ set @resources='
   <LocaleResource Name="Admin.ContentManagement.News.Comments.Fields.StoreName">
     <Value>Store name</Value>
   </LocaleResource>
+  <LocaleResource Name="Admin.Configuration.Settings.RewardPoints.PointsForRegistration">
+    <Value></Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Configuration.Settings.RewardPoints.PointsForRegistration.Hint">
+    <Value></Value>
+  </LocaleResource>
 </Language>
 '
 
@@ -3246,3 +3252,8 @@ GO
  	VALUES (N'newssettings.shownewscommentsperstore', N'False', 0)
  END
  GO
+ 
+--delete setting
+DELETE FROM [Setting]
+WHERE [Name] = N'rewardpointssettings.pointsforregistration'
+GO

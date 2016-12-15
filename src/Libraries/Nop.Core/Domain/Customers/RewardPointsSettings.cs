@@ -20,11 +20,6 @@ namespace Nop.Core.Domain.Customers
         public int MinimumRewardPointsToUse { get; set; }
 
         /// <summary>
-        /// Gets or sets a number of points awarded for registration
-        /// </summary>
-        public int PointsForRegistration { get; set; }
-
-        /// <summary>
         /// Gets or sets a number of points awarded for purchases (amount in primary store currency)
         /// </summary>
         public decimal PointsForPurchases_Amount { get; set; }

@@ -7005,12 +7005,6 @@
   <LocaleResource Name="Admin.Configuration.Settings.RewardPoints.ActivationDelay.Hint">
     <Value>Specify how many days (hours) must elapse before earned points become active. Points earned by purchase cannot be redeemed until activated. For example, you may set the days before the points become available to 7. In this case, the points earned will be available for spending 7 days after the order gets chosen awarded status.</Value>
   </LocaleResource>
-  <LocaleResource Name="Admin.Configuration.Settings.RewardPoints.PointsForRegistration">
-    <Value>Points for registration</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Configuration.Settings.RewardPoints.PointsForRegistration.Hint">
-    <Value>Specify number of points awarded for registration.</Value>
-  </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Settings.Shipping">
     <Value>Shipping settings</Value>
   </LocaleResource>

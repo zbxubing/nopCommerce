@@ -6029,7 +6029,6 @@ namespace Nop.Services.Installation
             {
                 Enabled = true,
                 ExchangeRate = 1,
-                PointsForRegistration = 0,
                 PointsForPurchases_Amount = 10,
                 PointsForPurchases_Points = 1,
                 ActivationDelay = 0,

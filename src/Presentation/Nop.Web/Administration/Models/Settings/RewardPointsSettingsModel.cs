@@ -20,10 +20,6 @@ namespace Nop.Admin.Models.Settings
         public int MinimumRewardPointsToUse { get; set; }
         public bool MinimumRewardPointsToUse_OverrideForStore { get; set; }
 
-        [NopResourceDisplayName("Admin.Configuration.Settings.RewardPoints.PointsForRegistration")]
-        public int PointsForRegistration { get; set; }
-        public bool PointsForRegistration_OverrideForStore { get; set; }
-
         [NopResourceDisplayName("Admin.Configuration.Settings.RewardPoints.PointsForPurchases_Amount")]
         public decimal PointsForPurchases_Amount { get; set; }
         public int PointsForPurchases_Points { get; set; }
