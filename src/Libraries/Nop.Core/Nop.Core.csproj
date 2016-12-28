@@ -137,6 +137,7 @@
     <Compile Include="Domain\Vendors\VendorNote.cs" />
     <Compile Include="Domain\Vendors\VendorSettings.cs" />
     <Compile Include="Domain\Vendors\Vendor.cs" />
+    <Compile Include="Domain_DS\Sellers\Seller.cs" />
     <Compile Include="TypeConverterRegistrationStartUpTask.cs" />
     <Compile Include="Infrastructure\Mapper\AutoMapperConfiguration.cs" />
     <Compile Include="Infrastructure\Mapper\IMapperConfiguration.cs" />

@@ -23,7 +23,11 @@ namespace Nop.Data
         {
             //((IObjectContextAdapter) this).ObjectContext.ContextOptions.LazyLoadingEnabled = true;
         }
-        
+
+        public NopObjectContext()
+            : base("migration")
+        {
+        }
         #endregion
 
         #region Utilities
