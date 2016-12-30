@@ -3465,6 +3465,18 @@
   <LocaleResource Name="Admin.Catalog.Products.ProductAttributes.Attributes.Values.Fields.AssociatedProduct.Choose">
     <Value>Choose an associated product</Value>
   </LocaleResource>
+  <LocaleResource Name="Admin.Catalog.Products.ProductAttributes.Attributes.Values.Fields.AssociatedProduct.Downloadable">
+    <Value>The associated product is downloadable, keep in mind that won't be able to download it.</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Catalog.Products.ProductAttributes.Attributes.Values.Fields.AssociatedProduct.GiftCard">
+    <Value>The associated product is a gift card, keep in mind that customers can not specify its details in the product details page.</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Catalog.Products.ProductAttributes.Attributes.Values.Fields.AssociatedProduct.HasAttributes">
+    <Value>The associated product has attributes, keep in mind that customers can not select them in the product details page.</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Catalog.Products.ProductAttributes.Attributes.Values.Fields.AssociatedProduct.HasRequiredAttributes">
+    <Value>The associated product has required product attributes, so customers won't be able to choose this product attribute value.</Value>
+  </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Products.ProductAttributes.Attributes.Values.Fields.AssociatedProduct.Hint">
     <Value>Associated product.</Value>
   </LocaleResource>
@@ -10746,6 +10758,39 @@
   <LocaleResource Name="Admin.Orders.ShippingInfo.NotRequired">
     <Value>Shipping not required</Value>
   </LocaleResource>
+  <LocaleResource Name="Admin.Pager.All">
+    <Value>All</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Pager.Display">
+    <Value>{0} - {1} of {2} items</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Pager.Empty">
+    <Value>No items to display</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Pager.First">
+    <Value>Go to the first page</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Pager.ItemsPerPage">
+    <Value>items per page</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Pager.Last">
+    <Value>Go to the last page</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Pager.Next">
+    <Value>Go to the next page</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Pager.Of">
+    <Value>of {0}</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Pager.Page">
+    <Value>Page</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Pager.Previous">
+    <Value>Go to the previous page</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Pager.Refresh">
+    <Value>Refresh</Value>
+  </LocaleResource>
   <LocaleResource Name="Admin.PageTitle">
     <Value>nopCommerce administration</Value>
   </LocaleResource>
@@ -12374,6 +12419,9 @@
   </LocaleResource>
   <LocaleResource Name="Admin.Vendors.AddNew">
     <Value>Add a new vendor</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Vendors.Address">
+    <Value>Address (optional)</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Vendors.BackToList">
     <Value>back to vendor list</Value>
