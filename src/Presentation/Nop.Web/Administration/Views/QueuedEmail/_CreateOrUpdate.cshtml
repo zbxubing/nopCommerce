@@ -102,9 +102,14 @@
                             @Html.NopLabelFor(model => model.Body)
                         </div>
                         <div class="col-md-9">
-                            @Html.EditorFor(model => model.Body, "RichEditor")
+                            @Html.NopTextAreaFor(model => model.Body)
                             @Html.ValidationMessageFor(model => model.Body)
                         </div>
+                        <script type="text/javascript">
+                            $(document).ready(function () {
+                                $('#@Html.FieldIdFor(model => model.Body)').height($('#@Html.FieldIdFor(model => model.Body)')[0].scrollHeight);
+                            });
+                        </script>
                     </div>
                     @if (!String.IsNullOrEmpty(Model.AttachmentFilePath))
                     {
@@ -114,6 +119,26 @@
                             </div>
                             <div class="col-md-9">
                                 @Html.NopDisplayFor(model => model.AttachmentFilePath)
+                            </div>
+                        </div>
+                    }
+                    @if (Model.AttachedDownloadId > 0)
+                    {
+                        <div class="form-group">
+                            <div class="col-md-3">
+                                @Html.NopLabelFor(model => model.AttachedDownloadId)
+                            </div>
+                            <div class="col-md-4">
+                                @{
+                                    //Static file attachments do not support URLs yet
+                                    //A store owner have to upload a file
+                                    //we store a value into "ViewData" and then use it in the Download.cshtml file
+                                    ViewData["nop.DownloadEditor.DisableUrl"] = true;
+                                }
+                                <div>
+                                    @Html.NopEditorFor(model => model.AttachedDownloadId)
+                                    @Html.ValidationMessageFor(model => model.AttachedDownloadId)
+                                </div>
                             </div>
                         </div>
                     }
